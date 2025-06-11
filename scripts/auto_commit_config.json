@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "watch_extensions": [
+    ".py",
+    ".md",
+    ".txt",
+    ".json",
+    ".yaml",
+    ".yml",
+    ".html",
+    ".css",
+    ".js",
+    ".svg"
+  ],
+  "ignore_patterns": [
+    "__pycache__",
+    ".git",
+    ".vscode",
+    ".idea",
+    "node_modules",
+    "venv312",
+    "*.log",
+    "*.tmp",
+    "*.pyc",
+    ".cursor"
+  ],
+  "commit_delay_seconds": 30,
+  "max_commits_per_hour": 10,
+  "auto_push": false,
+  "commit_message_templates": {
+    "default": "Auto-commit: Update files",
+    ".py": "Auto-commit: Update Python code",
+    ".md": "Auto-commit: Update documentation",
+    ".json": "Auto-commit: Update configuration",
+    ".html": "Auto-commit: Update HTML files",
+    ".css": "Auto-commit: Update styles",
+    ".js": "Auto-commit: Update JavaScript",
+    ".svg": "Auto-commit: Update graphics"
+  }
+} 
