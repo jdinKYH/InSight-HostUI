@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1800" height="960" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head 영역 -->
+  <rect x="20" y="20" width="1760" height="80" rx="20" fill="#1976d2" stroke="#1976d2" stroke-width="2"/>
+  <text x="900" y="75" font-size="50" font-weight="bold" fill="white" text-anchor="middle" font-family="Segoe UI, Bahnschrift, Arial Black, Arial, sans-serif">SETTING</text>
+  <text x="1680" y="55" font-size="20" fill="white" text-anchor="end">Knst R&amp;D</text>
+  <text x="1680" y="80" font-size="16" fill="white" text-anchor="end">2024-06-08 14:23:01</text>
+
+  <!-- 전체 배경 -->
+  <rect x="20" y="100" width="1760" height="860" rx="40" fill="#f5f7fa" stroke="#1976d2" stroke-width="4"/>
+  <!-- Telnet Panel -->
+  <rect x="60" y="140" width="540" height="800" rx="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="3"/>
+  <text x="330" y="190" font-size="36" font-weight="bold" fill="#1976d2" text-anchor="middle">Telnet 설정</text>
+  <rect x="100" y="240" width="200" height="60" rx="10" fill="#fff" stroke="#90caf9" stroke-width="2"/>
+  <text x="110" y="280" font-size="24" fill="#1976d2">서버 주소</text>
+  <rect x="320" y="240" width="80" height="60" rx="10" fill="#fff" stroke="#90caf9" stroke-width="2"/>
+  <text x="330" y="280" font-size="24" fill="#1976d2">포트</text>
+  <rect x="410" y="240" width="170" height="60" rx="10" fill="#fff" stroke="#90caf9" stroke-width="2"/>
+  <text x="420" y="280" font-size="20" fill="#1976d2">모드: Client</text>
+  <rect x="100" y="320" width="440" height="60" rx="10" fill="#fff" stroke="#90caf9" stroke-width="2"/>
+  <text x="120" y="360" font-size="24" fill="#1976d2">연결/해제/테스트 버튼</text>
+  <rect x="100" y="400" width="440" height="80" rx="10" fill="#fff" stroke="#90caf9" stroke-width="2"/>
+  <text x="120" y="450" font-size="24" fill="#1976d2">통신 데이터 입력</text>
+  <rect x="350" y="490" width="170" height="50" rx="10" fill="#1976d2" stroke="#90caf9" stroke-width="2"/>
+  <text x="435" y="520" font-size="24" fill="#fff" text-anchor="middle">전송</text>
+  <text x="120" y="540" font-size="18" fill="#1976d2">(전송 시 데이터 끝에 CR+LF 자동 추가)</text>
+  <rect x="100" y="560" width="440" height="160" rx="10" fill="#fff" stroke="#90caf9" stroke-width="2"/>
+  <text x="120" y="620" font-size="24" fill="#1976d2">통신 로그</text>
+
+  <!-- Param Panel -->
+  <rect x="660" y="140" width="540" height="800" rx="20" fill="#fffde7" stroke="#fbc02d" stroke-width="3"/>
+  <text x="930" y="190" font-size="36" font-weight="bold" fill="#fbc02d" text-anchor="middle">검사 파라미터</text>
+  <rect x="700" y="240" width="460" height="300" rx="10" fill="#fff" stroke="#ffe082" stroke-width="2"/>
+  <text x="720" y="280" font-size="24" fill="#fbc02d">파라미터 그리드</text>
+  <rect x="700" y="560" width="460" height="60" rx="10" fill="#fff" stroke="#ffe082" stroke-width="2"/>
+  <text x="720" y="600" font-size="24" fill="#fbc02d">추가/수정/삭제 버튼</text>
+  <rect x="700" y="640" width="460" height="100" rx="10" fill="#fff" stroke="#ffe082" stroke-width="2"/>
+  <text x="720" y="690" font-size="24" fill="#fbc02d">파라미터 상세 입력</text>
+
+  <!-- Log Panel -->
+  <rect x="1260" y="140" width="540" height="800" rx="20" fill="#f3e5f5" stroke="#8e24aa" stroke-width="3"/>
+  <text x="1530" y="190" font-size="36" font-weight="bold" fill="#8e24aa" text-anchor="middle">로그</text>
+  <rect x="1300" y="240" width="460" height="450" rx="10" fill="#fff" stroke="#ce93d8" stroke-width="2"/>
+  <text x="1320" y="280" font-size="24" fill="#8e24aa">로그 출력</text>
+  <rect x="1300" y="710" width="460" height="100" rx="10" fill="#fff" stroke="#ce93d8" stroke-width="2"/>
+  <text x="1320" y="760" font-size="24" fill="#8e24aa">로그 레벨/필터</text>
+</svg> 

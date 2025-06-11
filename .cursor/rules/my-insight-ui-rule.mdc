@@ -1,0 +1,69 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+project_root/
+├── src/
+│   ├── main.py              # 메인 애플리케이션 진입점
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   ├── main_window.py   # 메인 윈도우 클래스
+│   │   ├── browser_widget.py # 브라우저 위젯 클래스
+│   │   └── components/      # UI 컴포넌트들
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── config.py        # 설정 관리
+│   │   └── helpers.py       # 유틸리티 함수들
+│   └── resources/
+│       ├── icons/           # 아이콘 파일들
+│       ├── styles/          # CSS/QSS 스타일 시트
+│       └── html/            # 로컬 HTML 파일들
+├── tests/                   # 단위 테스트
+├── requirements.txt         # 의존성 목록
+├── setup.py                # 패키지 설정
+├── README.md               # 프로젝트 설명
+└── config/                  # Setting & Configuration
+
+
+# Core Libraries
+- GUI: tkinter (default) or PyQt5/6
+- File handling: pathlib, os
+- Settings: configparser, json
+- Logging: logging
+- Build: pyinstaller
+
+# Coding Standards
+- Follow PEP 8
+- Type hunting 적긍 사용
+- Use snake_case for files/functions, PascalCase for classes
+- Constants: UPPER_SNAKE_CASE (e.g. DEFAULT_URL, WINDOW_SIZE)
+- Private members: _underscore_prefix
+- Add type hints when possible
+- Include docstrings for all classes/functions
+- Use 4 spaces for indentation
+
+# Key Requirements
+1. Error Handling: Always use try-except for file operations and external calls
+2. Logging: Set up proper logging to file and console
+3. Configuration: Store settings in config files, not hardcoded
+4. Resources: Use absolute paths for resource files
+5. Windows Compatibility: Test on Windows 10/11, handle Windows-specific paths
+
+# Best Practices
+- Separate UI logic from business logic
+- Use threading for long-running operations
+- Provide user feedback for all actions
+- Handle Windows file path encoding properly
+- Include proper error messages for users
+- Test executable on clean Windows systems
+
+## Build Process
+Use PyInstaller to create executable:
+```bash
+pyinstaller main.py --onefile --windowed --name=AppName
+```
+
+Write clean, maintainable Python code suitable for Windows desktop applications.
+
+

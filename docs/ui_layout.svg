@@ -1,0 +1,24 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <text x="50" y="40" font-size="32" font-family="Arial" fill="#007acc">※ 이 레이아웃은 실제 화면 크기에 맞게 자동 축소/확대되며, 스크롤 없이 전체 UI가 항상 화면에 보이도록 설계되었습니다.</text>
+  <!-- Header -->
+  <rect x="0" y="60" width="1920" height="100" fill="#e0e0e0" />
+  <text x="60" y="120" font-size="40" font-family="Arial" fill="#333">회사명</text>
+  <text x="900" y="120" font-size="40" font-family="Arial" fill="#333">프로그램명</text>
+  <text x="1600" y="120" font-size="32" font-family="Arial" fill="#333">날짜/시간</text>
+  <!-- Main Area -->
+  <rect x="0" y="160" width="1280" height="800" fill="#d0eaff" stroke="#bbb" />
+  <text x="600" y="560" font-size="36" font-family="Arial" fill="#888">BrowserWidget (QWebEngineView) - 좌측 2/3</text>
+  <rect x="1280" y="160" width="640" height="800" fill="#fff7d6" stroke="#bbb" />
+  <text x="1400" y="200" font-size="32" font-family="Arial" fill="#888">ControlPanel - 우측 1/3</text>
+  <rect x="1320" y="240" width="560" height="80" fill="#e6ffe6" stroke="#aaa" />
+  <text x="1340" y="290" font-size="28" font-family="Arial" fill="#333">주소창 (QLineEdit)</text>
+  <rect x="1320" y="360" width="560" height="240" fill="#ffe6e6" stroke="#aaa" />
+  <text x="1340" y="480" font-size="28" font-family="Arial" fill="#333">그리드 (QTableWidget)</text>
+  <rect x="1320" y="620" width="560" height="120" fill="#f0e6ff" stroke="#aaa" />
+  <text x="1340" y="690" font-size="28" font-family="Arial" fill="#333">로그 창 (LogViewer, QTextEdit 등)</text>
+  <rect x="1320" y="760" width="560" height="80" fill="#e6f7ff" stroke="#aaa" />
+  <text x="1340" y="810" font-size="28" font-family="Arial" fill="#333">버튼 영역 (QPushButton 등)</text>
+  <!-- StatusBar -->
+  <rect x="0" y="960" width="1920" height="100" fill="#e0e0e0" />
+  <text x="60" y="1030" font-size="32" font-family="Arial" fill="#333">StatusBar (상태 메시지, 높이 8~10%)</text>
+</svg> 
