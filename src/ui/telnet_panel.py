@@ -7,6 +7,8 @@ import threading
 import time
 
 class TelnetPanel(QWidget):
+    # 연결 상태 변경 시그널
+    connection_changed = pyqtSignal(bool)
     def __init__(self):
         super().__init__()
         self.telnet = TelnetManager()
@@ -94,9 +96,13 @@ class TelnetPanel(QWidget):
             # Welcome 메시지를 깔끔하게 표시
             clean_msg = msg.replace('\r\n', ' ').replace('\r', ' ').replace('\n', ' ').strip()
             self._log(f"[{self._now()}] {clean_msg}")
+            # 연결 상태 변경 시그널 발생
+            self.connection_changed.emit(True)
         else:
             self.status_label.setText("연결 안됨")
             self._log(f"[{self._now()}] [에러] 연결 실패 또는 수신 없음: {repr(msg)}")
+            # 연결 실패 시그널 발생
+            self.connection_changed.emit(False)
 
     def _on_login(self):
         if not self.telnet.connected:
@@ -119,6 +125,8 @@ class TelnetPanel(QWidget):
         self.status_label.setText("연결 안됨")
         self._log(f"[{self._now()}] 연결 해제")
         self._stop_rx_thread()
+        # 연결 해제 시그널 발생
+        self.connection_changed.emit(False)
 
     def _on_test(self):
         if not self.telnet.connected:
