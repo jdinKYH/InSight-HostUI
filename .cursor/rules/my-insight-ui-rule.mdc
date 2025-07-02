@@ -35,7 +35,7 @@ project_root/
 
 # Coding Standards
 - Follow PEP 8
-- Type hunting 적긍 사용
+- Type hunting 적극극 사용
 - Use snake_case for files/functions, PascalCase for classes
 - Constants: UPPER_SNAKE_CASE (e.g. DEFAULT_URL, WINDOW_SIZE)
 - Private members: _underscore_prefix
