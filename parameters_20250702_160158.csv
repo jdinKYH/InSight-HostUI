@@ -1,0 +1,7 @@
+No,Cell,항목,값,명령유형,시간
+1,Cell0,Vision Status,,GET,2025-07-02 16:02:04
+2,Cell1,Job Name,,GET,2025-07-02 16:02:04
+3,Cell2,Part Present,,GET,2025-07-02 16:02:04
+4,Cell3,Overall Result,,GET,2025-07-02 16:02:04
+5,Cell4,Execution Time,,GET,2025-07-02 16:02:04
+6,B070,파라메터 테스트,27.987,SET,2025-07-02 16:02:04
